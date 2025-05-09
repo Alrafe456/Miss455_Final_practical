@@ -35,6 +35,7 @@ function searchCountry() {
             <p><strong>Currency:</strong> ${currencyKey} - ${currency}</p>
             <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
             <p><strong>Region:</strong> ${country.region}</p>
+            
             <p><strong>Languages:</strong> ${languages}</p>
           `;
           resultDiv.appendChild(card);
