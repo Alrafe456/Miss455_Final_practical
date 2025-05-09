@@ -33,6 +33,8 @@ function searchCountry() {
             <img src="${country.flags.svg}" alt="Flag of ${country.name.common}">
             <p><strong>Capital:</strong> ${country.capital?.[0] || 'N/A'}</p>
             <p><strong>Currency:</strong> ${currencyKey} - ${currency}</p>
+            <p><strong>Population:</strong> ${country.population.toLocaleString()}</p>
+            <p><strong>Region:</strong> ${country.region}</p>
             <p><strong>Languages:</strong> ${languages}</p>
           `;
           resultDiv.appendChild(card);
